@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_reconnaissance"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.acer.finalapp.ReconnaissanceActivity"
+    android:background="@drawable/fonf">
+
+    <TextView
+        android:text="    Choisir l'organe associé :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp"
+        android:layout_above="@+id/listView1"
+        android:layout_alignStart="@+id/listView1"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false"
+        android:layout_alignEnd="@+id/listView1" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp" />
+</RelativeLayout>
